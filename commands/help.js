@@ -75,7 +75,7 @@ module.exports = {
 
       const button3 = new ButtonBuilder()
         .setLabel('Code')
-        .setURL('https://github.com/Minecrafthi1')
+        .setURL('https://github.com/Earlpolloso')
         .setStyle(ButtonStyle.Link);
 
       const row = new ActionRowBuilder()
