@@ -22,11 +22,11 @@
 
 module.exports = {
   TOKEN: "",
-  ownerID: ["1004206704994566164", ""],
-  botInvite: "",
-  supportServer: "",
+  ownerID: ["1074763726856654898", ""],
+  botInvite: "https://discord.com/oauth2/authorize?client_id=1256840966447304714&permissions=8&integration_type=0&scope=bot",
+  supportServer: "https://discord.gg/7Y7nX5mJQb",
   mongodbURL: "mongodb+srv://shiva:shiva@musicbotyt.ouljywv.mongodb.net/?retryWrites=true&w=majority",
-  status: 'GlaceYT',
+  status: 'Idle',
   commandsDir: './commands',
   language: "en",
   embedColor: "00fbff",
@@ -35,7 +35,7 @@ module.exports = {
 
   sponsor: {
     status: true,
-    url: "https://www.youtube.com/@GlaceYT",
+    url: "https://www.youtube.com/channel/UC3ZYUIwN53mIryMyR4XqzPg",
   },
 
   voteManager: {
@@ -84,10 +84,10 @@ module.exports = {
 
 ╔════════════════════════════════════════════════════════════════════════╗
 ║                                                                        ║
-║  ## Created by GlaceYT!                                                ║
+║  ## Created by Earl!                                                   ║
 ║  ## Feel free to utilize any portion of the code                       ║
-║  ## DISCORD :  https://discord.com/invite/xQF9f9yUEM                   ║
-║  ## YouTube : https://www.youtube.com/@GlaceYt                         ║
+║  ## DISCORD :  https://discord.gg/7Y7nX5mJQb                           ║
+║  ## YouTube : https://www.youtube.com/channel/UC3ZYUIwN53mIryMyR4XqzPg ║
 ║                                                                        ║
 ╚════════════════════════════════════════════════════════════════════════╝
 
