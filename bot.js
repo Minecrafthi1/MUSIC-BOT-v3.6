@@ -85,6 +85,20 @@ if (config.TOKEN || process.env.TOKEN) {
 
 
 
+if(config.mongodbURL || process.env.MONGO){
+  const mongoose = require("mongoose")
+  mongoose.connect(config.mongodbURL || process.env.MONGO, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  }).then(async () => {
+    console.log('\x1b[32m%s\x1b[0m', `|    🍔 Connected MongoDB!`)
+  }).catch((err) => {
+    console.log('\x1b[32m%s\x1b[0m', `|    🍔 Failed to connect MongoDB!`)})
+  } else {
+  console.log('\x1b[32m%s\x1b[0m', `|    🍔 Error MongoDB!`)
+  }
+
+
 const http = require('http');
 
 const server = http.createServer((req, res) => {
